@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Oswald, sans-serif;
+}
+
+p {
+  font-family: raleway, sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.nav {
+  overflow: auto;
+  width: 85%;
+  margin: 1em auto;
+}
+.nav h1 {
+  text-transform: uppercase;
+  width: 50%;
+  float: left;
+}
+
+.nav h1 a {
+  font-family: Oswald, sans-serif;
+  color: #96746b;
+  text-decoration: none;
+}
+
+.nav ul {
+  width: 50%;
+  float: left;
+  text-align: right;
+  padding-top: 1em;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.nav li a {
+  font-family: Raleway, sans-serif;
+  color: #312a26;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.banner {
+  background-image: url("../images/banner-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 670px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 7.5%;
+  transform: translateY(-50%);
+  width: 45%;
+}
+
+.banner-text h2 {
+  color: #c7a17a;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+.banner-text h2 span {
+  color: #96746b;
+}
+
+.banner-text p {
+  color: white;
+}
+
+.banner-text a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em;
+  background-color: #312a26;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin-top: 1em;
+}
+
+.ads {
+  width: 85%;
+  margin: 4em auto;
+  overflow: auto;
+}
+
+.ads-Items {
+  width: 48.5%;
+  float: left;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 3%;
+}
+
+.ads-Items1 {
+  margin-right: 3%;
+  background-image: url("../images/ads-img1.jpg");
+}
+
+.ads-Items2 {
+  background-image: url("../images/ads-img2.jpg");
+}
+
+.ads-text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  text-transform: translateY(-50%);
+  width: 40%;
+}
+.ads-text h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: white;
+  line-height: 1.2em;
+  text-shadow: 3px 3px 6px #312a26;
+}
+.ads-text a {
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 1em;
+  text-shadow: 3px 3px 5px #312a26;
+}
+
+.merch {
+  width: 85%;
+  margin: 4em auto;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-header span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #c7a17a;
+}
+
+.section-header h2 {
+  text-transform: uppercase;
+  color: #312a26;
+}
+
+.section-header hr {
+  background-color: #c7a17a;
+  height: 2px;
+  width: 25%;
+  margin: auto;
+}
+
+.merch-gallery {
+  margin-top: 2em;
+  overflow: auto;
+}
+
+.merch-items {
+  width: 24.25%;
+  float: left;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+
+.merch-items:nth-child(4),
+.merch-items:nth-child(8) {
+  margin-right: 0;
+}
+
+.merch-items img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.discount {
+  width: 85%;
+  margin: 4em auto;
+  background-image: url("../images/discount-img.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  position: relative;
+}
+
+.discount-text {
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.discount-text span {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-style: italic;
+  text-shadow: 3px 3px 6px #312a26;
+}
+
+.discount-text h2 {
+  font-size: 2em;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 6px #312a26;
+}
+
+.discount-text a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #312a26;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  margin-top: 1em;
+}
