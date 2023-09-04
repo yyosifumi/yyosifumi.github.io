@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pretest.html</title>
+  </head>
+  <style>
+    body {
+      width: 600px;
+      margin: 0 auto;
+    }
+    span {
+      color: red;
+    }
+    td input[type="email"] {
+      margin-top: 4px;
+    }
+  </style>
+  <body>
+    <table>
+      <form action="#" method="#">
+        <tr>
+          <td>
+            <p>Full Name <span>*</span></p>
+          </td>
+          <td>
+            <input type="text" name="ftname" id="ftname" placeholder="First Name" required />
+
+            <input type="text" name="ltname" id="ltname" placeholder="Last Name" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>University <span>*</span></p>
+          </td>
+          <td>
+            <select name="university" id="university" required>
+              <option value="" disabled selected>Select university</option>
+              <option value="tokyo">Tokyo university</option>
+              <option value="osaka">Osaka university</option>
+              <option value="kyoto">Kyoto university</option>
+            </select>
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td><p>If Other - Please Specify</p></td>
+          <td><input type="text" name="specify" id="specify" /></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Faculty <span>*</span></p>
+          </td>
+          <td>
+            <select name="faculty" id="faculty" required>
+              <option value="" disabled selected>Select Faculty</option>
+              <option value="economy">Faculty of Economics</option>
+              <option value="law">Faculty of law</option>
+              <option value="medicine">Faculty of Medicine</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><p>If Other - Please Specify</p></td>
+          <td><input type="text" name="specify2" id="specify2" /></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Academic year of phD <span>*</span></p>
+          </td>
+          <td>
+            <select name="year" id="year" required>
+              <option value="" disabled selected>Select Year</option>
+              <option value="first">First Year</option>
+              <option value="second">Second Year</option>
+              <option value="third">Third Year</option>
+            </select>
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Where would you like to <br />work?</p>
+          </td>
+          <td>
+            <input type="checkbox" name="work" id="academia" />
+            <label for="academia"> Academia</label>
+            <br />
+            <input type="checkbox" name="work" id="industry" />
+            <label for="industry"> Industry</label>
+            <br />
+            <input type="checkbox" name="work" id="consultancy" />
+            <label for="consultancy"> Consultancy</label>
+            <br />
+            <input type="checkbox" name="work" id="finance" />
+            <label for="finance"> Finance</label>
+            <br />
+            <input type="checkbox" name="work" id="poliy" />
+            <label for="poily">Policy/Goverment/NGO </label>
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>E-mail <span>*</span></p>
+          </td>
+          <td>
+            <input type="email" name="email" id="email" placeholder="ex:myname@example.co.jp" required />
+            <br />
+            <input type="email" name="email2" id="email2" placeholder="Confirm Email" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Would you like to sign up<br />to our newsletter?</p>
+          </td>
+          <td>
+            <input type="radio" name="answer" id="yes" />
+            <label for="answer">Yes</label>
+            <br />
+            <input type="radio" name="answer" id="already" />
+            <label for="answer">No,I have already signed up</label>
+            <br />
+            <input type="radio" name="answer" id="no" />
+            <label for="answer">No</label>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Submit" />
+          </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
